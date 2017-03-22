@@ -1,0 +1,8 @@
+
+public class Pincel {
+	String cor;
+	String forma;
+	int tamanho;
+	int capacidade;
+
+}
