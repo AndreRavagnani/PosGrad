@@ -15,13 +15,9 @@ public class Pincel {
 		this.tamanho = tamanho;
 		this.capacidade = capacidade;
 	}
-
+	
 	public void riscar(String mensagem){
 		System.out.println("Riscando de cor " + this.cor + " a mensagem " + mensagem);
-	}
-
-	public void riscar(){
-		System.out.println("-------");	
 	}
 
 }
