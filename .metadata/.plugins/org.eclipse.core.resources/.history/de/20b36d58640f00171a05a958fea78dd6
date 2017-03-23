@@ -1,0 +1,43 @@
+import java.util.Arrays;
+
+@SuppressWarnings("unused")
+public class Estudante {
+	int matricula;
+	String nome;
+	char sexo;
+	double[] notas;
+
+	public Estudante(){
+		this(0,"",'M');
+	}
+	public Estudante(int matricula, String nome, char sexo){
+		this.matricula = matricula;
+		this.nome = nome;
+		this.sexo = sexo;
+		this.notas = new double[4];
+	}
+	
+	public void exibir(){
+		System.out.println("Matricula: " + this.matricula);
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Sexo: " + this.sexo);
+		int i = 1;
+		for(double nota : notas){
+			System.out.println("Nota " + i + ": " + nota);
+			i++;
+		}
+		/*
+		Outro meio para imprimir as notas
+		System.out.println("Notas: " + Arrays.toString(notas));
+		*/
+	}
+	
+	public void atribuirNota(int numProva, double nota){
+		this.notas[numProva - 1] = nota;
+	}
+	
+	public double lerNota(int numProva){
+		return this.notas[numProva - 1];
+	}
+
+}
