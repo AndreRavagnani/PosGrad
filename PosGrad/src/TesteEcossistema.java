@@ -5,7 +5,7 @@ public class TesteEcossistema {
 		
 		Animal[] rio = new Animal[300];
 		
-		Animal.inicio(2, rio);
+		Animal.inicio(5, rio);
 		
 		
 	}
