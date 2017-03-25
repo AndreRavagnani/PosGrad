@@ -41,7 +41,3 @@ public class Polimonio {
 	}
 
 }
-
-/*
-(Dica: A primeira derivada de 𝑃(𝑥)=4𝑥4− 𝑥3− 𝑥2+ 𝑥1+1 é dada por polinômio 𝑃(𝑥)=16𝑥3− 3𝑥2− 2𝑥1+1).
- */
