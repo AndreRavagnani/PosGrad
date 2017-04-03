@@ -1,0 +1,6 @@
+
+public class TesteHeranca {
+
+	A a1 = new B();
+	a1.x();
+}

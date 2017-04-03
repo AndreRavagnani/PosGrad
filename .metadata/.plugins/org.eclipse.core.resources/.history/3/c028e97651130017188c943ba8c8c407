@@ -1,0 +1,18 @@
+import java.util.Date;
+
+public class BookRental extends Rental {
+
+	private String bookTitle;
+	private String author;
+	@Override
+	public boolean isOverDue() {
+		Date now = new Date();
+		return super.dueDate.before(now);
+	}
+
+	@Override
+	public double getTotalFee() {
+		return isOverDue() ? 1.2*super.rentalFee : super.rentalFee;
+	}
+
+}

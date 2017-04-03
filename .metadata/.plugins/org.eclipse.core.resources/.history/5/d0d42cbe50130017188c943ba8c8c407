@@ -1,0 +1,17 @@
+import java.util.Date;
+
+public abstract class Rental {
+	private Date rentDate;
+	private Date dueDate;
+	private double rentalFee;
+	
+	public abstract boolean isOverDue();
+	public abstract double getTotalFee();
+	public Date getDueDate() {
+		return dueDate;
+	}
+	public void setDueDate(Date dueDate) {
+		this.dueDate = dueDate;
+	}
+
+}
