@@ -6,4 +6,9 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="Estudante.TipoNota"/>
 <fullyQualifiedTypeName name="Estudante.TipoSexo"/>
+<fullyQualifiedTypeName name="Organization"/>
+<fullyQualifiedTypeName name="Name"/>
+<fullyQualifiedTypeName name="PhoneNumber"/>
+<fullyQualifiedTypeName name="Contact"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
