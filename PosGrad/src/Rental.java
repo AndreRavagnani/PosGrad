@@ -4,6 +4,7 @@ public abstract class Rental {
 	protected Date rentDate;
 	protected Date dueDate;
 	protected double rentalFee;
+	protected String title;
 	
 	public  boolean isOverDue() {
 		Date now = new Date();
