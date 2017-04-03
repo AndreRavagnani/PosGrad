@@ -1,8 +1,0 @@
-
-public class Organization {
-	int id;
-	Name name;
-	PhoneNumber tel;
-	PhoneNumber fax;
-	Contact contact;
-}

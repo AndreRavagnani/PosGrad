@@ -1,7 +1,0 @@
-
-public class TestePincel {
-	public static void main(String[] args) {
-		Pincel p1 = new Pincel();
-
-	}
-}

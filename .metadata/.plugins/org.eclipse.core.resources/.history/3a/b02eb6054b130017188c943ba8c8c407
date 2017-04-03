@@ -1,8 +1,0 @@
-
-public class Contact {
- PhoneNumber phone;
- PhoneNumber fax;
- PhoneNumber mobile;
- Name firstName;
- Name lastName;
-}
